@@ -1,3 +1,20 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    align-self: center;
+}
+
 nav ul {
     display: flex;
     justify-content: flex-end;
