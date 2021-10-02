@@ -23,6 +23,26 @@ body {
     align-items: center;
 }
 
+.form-container form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-container input[type=text] {
+    flex: 1 1 100%;
+}
+
+.btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-container input {
+    margin: 20px;
+}
+
 nav ul {
     display: flex;
     justify-content: flex-end;
