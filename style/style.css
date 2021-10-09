@@ -37,12 +37,16 @@ nav ul a:hover {
 
 #search-bar {
   border-radius: 20px;
+  border : 1px solid #DFE1E5;
   background-color: #fff;
-  box-shadow: 0 1px 6px rgba(32,33,36,.28);
-  border-color: rgba(223,225,229,0);
   padding:10px;
   width: 100%;
   display: flex;
+}
+
+#search-bar:hover {
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+  border-color: rgba(223,225,229,0);
 }
 
 #search-bar svg {
@@ -89,4 +93,16 @@ nav ul a:hover {
 
 .btn-container input {
     margin: 20px;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    background-color: #F8F9FA;
+    border: 1px solid #ffffff;
+}
+
+.btn-container input:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
 }
