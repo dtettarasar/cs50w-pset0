@@ -106,3 +106,10 @@ nav ul a:hover {
   border: 1px solid #dadce0;
   color: #202124;
 }
+
+.subtitle {
+  margin: 0;
+  position: relative;
+  left: 245px;
+  bottom: 50px;
+}
