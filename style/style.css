@@ -6,6 +6,10 @@ body {
     font-family: arial,sans-serif;
 }
 
+.logo-home {
+  margin-bottom: 18px;
+}
+
 #logo {
     max-width:300px;
     margin: 30px;
@@ -27,7 +31,8 @@ nav ul a {
 }
 
 nav ul a:link,
-nav ul a:visited {
+nav ul a:visited, 
+.subtitle {
   color:#4285F4;
 }
 
