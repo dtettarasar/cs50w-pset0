@@ -143,3 +143,20 @@ nav ul a:hover {
   left: 245px;
   bottom: 50px;
 }
+
+/*advanced page title */
+
+.title-container {
+    border-bottom: 2px solid #F2F0F2;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+}
+
+.title-container p {
+  font-size:1.4rem;
+  color: #e44335;
+}
+
+/*advanced page title  */
