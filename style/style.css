@@ -19,6 +19,10 @@ body {
 /* menu */
 
 .menu {
+  padding: 0 10px;
+}
+
+.advanced-menu {
   display:flex;
   justify-content:space-between;
   flex-wrap:wrap;
@@ -26,7 +30,7 @@ body {
   background-color:#F2F0F2;
 }
 
-.menu .menu-logo {
+.advanced-menu .menu-logo {
   flex: 0 1 100px;
 }
 
