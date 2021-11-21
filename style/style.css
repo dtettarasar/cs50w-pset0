@@ -114,20 +114,32 @@ nav ul a:hover {
     flex: 1 1 100%;
 }
 
+.btn-container,
+.btn-container-advanced {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .btn-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-container-advanced {
+  justify-content: flex-end;
+}
+
+.btn-container input,
+.btn-container-advanced input {
+  padding: 10px;
+  border:none;
+  border-radius: 5px;
 }
 
 .btn-container input {
-    margin: 20px;
-    padding: 10px;
-    border:none;
-    border-radius: 5px;
-    background-color: #F8F9FA;
-    border: 1px solid #ffffff;
+  background-color: #F8F9FA;
+  border: 1px solid #ffffff;
+  margin: 20px;
 }
 
 .btn-container input:hover {
@@ -182,6 +194,12 @@ nav ul a:hover {
 .field-container input {
   flex: 1 1 300px;
   height: 30px;
+}
+
+.btn-container-advanced input {
+  background-color: #4285F4;
+  color: #fff;
+  font-weight: 700;
 }
 
 /*advanced page title  */
