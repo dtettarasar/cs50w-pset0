@@ -159,4 +159,13 @@ nav ul a:hover {
   color: #e44335;
 }
 
+.container-advanced {
+  padding:20px;
+}
+
+.container-advanced .form-heading {
+  font-size:1.5rem;
+  font-weight: 700;
+}
+
 /*advanced page title  */
